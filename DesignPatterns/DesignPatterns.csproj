@@ -43,6 +43,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractFactory\AbstractFactory.cs" />
+    <Compile Include="AbstractFactory\Devices\Device.cs" />
+    <Compile Include="AbstractFactory\Devices\LgSimplePhone.cs" />
+    <Compile Include="AbstractFactory\Devices\LgTablet.cs" />
+    <Compile Include="AbstractFactory\Devices\LgSmartPhone.cs" />
+    <Compile Include="AbstractFactory\Devices\NokiaSimplePhone.cs" />
+    <Compile Include="AbstractFactory\Devices\NokiaSmartPhone.cs" />
+    <Compile Include="AbstractFactory\Devices\NokiaTablet.cs" />
+    <Compile Include="AbstractFactory\Devices\SamsungSimplePhone.cs" />
+    <Compile Include="AbstractFactory\Devices\SamsungSmartPhone.cs" />
+    <Compile Include="AbstractFactory\Devices\SamsungTablet.cs" />
+    <Compile Include="AbstractFactory\Interfaces\IDevice.cs" />
+    <Compile Include="AbstractFactory\Interfaces\IMobile.cs" />
+    <Compile Include="AbstractFactory\Manufacturers\Lg.cs" />
+    <Compile Include="AbstractFactory\Manufacturers\Manufacturer.cs" />
+    <Compile Include="AbstractFactory\Manufacturers\Nokia.cs" />
+    <Compile Include="AbstractFactory\Manufacturers\Samsung.cs" />
     <Compile Include="Factory\VehicleFactory.cs" />
     <Compile Include="Factory\Racing.cs" />
     <Compile Include="Factory\Sedan.cs" />
