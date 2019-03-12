@@ -64,7 +64,7 @@ namespace DesignPatterns
 
             PrintSpase();
             Console.WriteLine("Closing Design Patters Tester");
-            Thread.Sleep(10000);
+            Console.ReadLine();
         }
 
         private static void PrintSpase()
