@@ -55,8 +55,7 @@ namespace DesignPatterns
             {
                 Console.WriteLine($"Abstact Factory: {i} Brand {mobiles[i].Brand()} Model: {mobiles[i].Model()} Screen: {mobiles[i].ScreenSize()} Battery: {mobiles[i].BatteryLife()} YoR: {mobiles[i].YearOfRelease()}");
             }
-
-
+            PrintSpase();
             #endregion
 
             #region Prototype
